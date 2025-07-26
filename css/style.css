@@ -1,4 +1,3 @@
-/* --- Google Fonts (Pastikan sudah ada di HTML) --- */
 body {
     font-family: 'Poppins', sans-serif;
     color: #333;
@@ -12,7 +11,7 @@ body {
     --accent-gradient: linear-gradient(45deg, #B2B2B2, #757575);
 }
 
-/* --- Perbaikan Umum & Section Padding --- */
+/* --- Section Padding --- */
 section {
     padding-top: 5rem;
     padding-bottom: 5rem;
