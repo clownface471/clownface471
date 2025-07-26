@@ -1,0 +1,69 @@
+/* --- Google Fonts (Pastikan sudah ada di HTML) --- */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* --- Palet Warna & Variabel --- */
+:root {
+    --ash-grey: #B2B2B2; /* Ash Grey utama */
+    --light-grey: #F5F5F5; /* Latar belakang terang */
+    --dark-grey: #424242;  /* Latar belakang gelap & teks */
+    --accent-gradient: linear-gradient(45deg, #B2B2B2, #757575);
+}
+
+/* --- Perbaikan Umum & Section Padding --- */
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* --- Kustomisasi Komponen Bootstrap --- */
+.hero-section {
+    background: var(--dark-grey);
+    color: white;
+}
+
+.bg-light {
+    background-color: var(--light-grey) !important;
+}
+
+.navbar.bg-dark {
+    background-color: var(--dark-grey) !important;
+}
+
+.btn-primary {
+    background: var(--accent-gradient);
+    border: none;
+    transition: transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+/* --- Footer Mengambang --- */
+footer.page-footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: transparent; /* Buat footer transparan */
+}
+
+footer .footer-content {
+    background-color: var(--dark-grey); /* Warna untuk konten di dalamnya */
+    color: white;
+    padding: 2rem;
+    border-radius: 15px; /* Ini yang membuat sudutnya melengkung */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* --- Styling untuk Progress Bar --- */
+.progress {
+    height: 10px; /* Membuat bar lebih tebal */
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+.progress-bar {
+    border-radius: 5px;
+}
